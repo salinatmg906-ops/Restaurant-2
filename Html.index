@@ -1,0 +1,87 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1>Modern Bhatti</h1>
+    <p class="location">Authentic Flavors of Machhapokhari</p>
+    <p class="subtitle">
+      Experience traditional Nepali cuisine with a modern twist.
+      Fresh ingredients, charcoal-grilled perfection.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#menu" class="btn-primary">View Menu</a>
+      <a href="#contact" class="btn-secondary">Contact Us</a>
+    </div>
+  </div>
+</section>.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+              url('https://images.unsplash.com/photo-1604908176997-431f3b9c84b3');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #ff6b2c;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background: #ff6b2c;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-secondary {
+  border: 2px solid #ff6b2c;
+  color: #ff6b2c;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+}<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950" alt="Restaurant Food"><div class="menu-card">
+  <h3>Buff Sekuwa</h3>
+  <p>Juicy buffalo meat grilled with special spices</p>
+  <span>Rs. 450</span>
+</div>.menu-card {
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}<section class="trust">
+  <h2>Why Choose Us</h2>
+  <div class="features">
+    <div>⭐ 4.8 Rating</div>
+    <div>🔥 Fresh Ingredients</div>
+    <div>📍 Machhapokhari Location</div>
+  </div>
+</section><footer>
+  <p>📍 Machhapokhari, Kathmandu</p>
+  <p>📞 98XXXXXXXX</p>
+  <p>© 2026 Modern Bhatti</p>
+</footer>
